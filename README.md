@@ -2,4 +2,7 @@
 
 Automated Testing in JS IT Academy
 
-Create file 1 Feature
+
+
+
+Создать 3 README.md mai. 

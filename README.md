@@ -2,4 +2,7 @@
 
 Automated Testing in JS IT Academy
 
-Create 3 README.md main
+
+
+
+Создать 3 README.md mai. 

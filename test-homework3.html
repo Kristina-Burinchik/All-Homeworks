@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test-homework3</title>
+  </head>
+  <body>
+    <script>
+      // 1) Сложение различных типов
+      // string + boolean:
+
+      let result1 = "Hello" + true; // "Hellotrue"
+      console.log(result1);
+
+      //string + number:
+      let result2 = "Number: " + 42; // "Number: 42"
+      console.log(result2);
+
+      //number + boolean:
+      let result3 = 5 + true; // 6 (true преобразуется в 1)
+      console.log(result3);
+
+      // 2) Умножение различных типов
+      //string * boolean:
+      let result4 = "Hello" * false; // NaN (нечисловая операция)
+      console.log(result4);
+
+      //string * number:
+      let result5 = "5" * 2; // 10 (строка преобразуется в число)
+      console.log(result5);
+
+      //number * boolean:
+      let result6 = 5 * false; // 0 (false преобразуется в 0)
+      console.log(result6);
+
+      // 3) Деление различных типов
+      //string / boolean:
+      let result7 = "10" / true; // 10 (строка преобразуется в число, true в 1)
+      console.log(result7);
+
+      //string / number:
+      let result8 = "20" / 4; // 5 (строка преобразуется в число)
+      console.log(result8);
+
+      //number / boolean:
+      let result9 = 10 / true; // 10 (true преобразуется в 1)
+      console.log(result9);
+
+      // 4) Явное преобразование
+      //number:
+      let num = Number("123"); // 123
+      console.log(num);
+
+      //string:
+      let str = String(123); // "123"
+      console.log(str);
+      //boolean:
+      let bool = Boolean(1); // true (1 преобразуется в true)
+      console.log(bool);
+    </script>
+  </body>
+</html>

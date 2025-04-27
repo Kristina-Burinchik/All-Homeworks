@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WebDriverIO / тестовые файлы
+allure-results/
+report/
+report-allure/
+coverage/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Средства сборки
+dist/
+build/
+
+# Конфигурационные файлы
+.env
